@@ -1,19 +1,12 @@
-import React from 'react'
 import Header from '../../containers/Header'
-import { Button, Icon, Modal, ModalActions, ModalContent, ModalDescription, ModalHeader } from 'semantic-ui-react'
-import { useNavigate } from 'react-router-dom';
 import ModelContainer from './ModelContainer';
 import { modelContentsDetails } from '../../constants/Contents';
 
 const ReactjsConcepts = () => {
 
-  const navigate = useNavigate();
 
-  const [open, setOpen] = React.useState(false)
 
-  const handleClick = () => {
-    navigate('/');
-}
+ 
   return (
 
     <>

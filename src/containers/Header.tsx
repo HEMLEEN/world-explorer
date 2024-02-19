@@ -1,14 +1,7 @@
-import React, { useState } from 'react'
-import Button from '../components/Button'
-import { useNavigate } from 'react-router-dom'
+
 
 const Header = (props: any) => {
-
-    const navigate = useNavigate();
-
-    const handleClick = () => {
-        navigate('/');
-    }
+ 
 
     return (
 

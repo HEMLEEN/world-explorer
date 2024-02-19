@@ -1,12 +1,9 @@
-import React from 'react'
 import Header from '../../containers/Header'
-import { Button, Icon, Modal, ModalActions, ModalContent } from 'semantic-ui-react'
 import ModelContainer from './ModelContainer'
 import { modelContentsDetails } from '../../constants/Contents'
 
 const JavascriptConcepts = () => {
 
-  const [open, setOpen] = React.useState(false)
   
   return (
     

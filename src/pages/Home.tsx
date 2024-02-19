@@ -1,5 +1,4 @@
-import React from 'react'
-import { ImageSource } from '../constants/ImageSource'
+
 import { Link } from 'react-router-dom'
 import Header from '../containers/Header'
 
