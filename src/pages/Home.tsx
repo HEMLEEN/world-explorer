@@ -7,20 +7,15 @@ const Home = () => {
 
   return (
     <>
-
-      <Header headerText='Road-Map-FullStack' />
-      <div className='AppBodyColumn'>
-        <div className='AppBodyRow'>
-          <div className='App'>
-            <h1>FronEnd - Developement</h1>
-            <h1><Link className='Link' to='/frontend'>Read More...</Link></h1>
-          </div>
-          <div className='App'>
-            <h1>Backend - Developement</h1>
-            <h1><Link className='Link' to='/backend'>Read More...</Link></h1>
-          </div>
-        </div>
+<div className='AppHead'>
+      <h1>Road-Map-FullStack</h1>
       </div>
+      <div className='App'>
+        
+           <Link className='Link' to='/frontend'><h2>Frontend Development</h2></Link>
+           <Link className='Link' to='/frontend'><h2>Backend Development</h2></Link>
+
+          </div>
     </>
   )
 }
