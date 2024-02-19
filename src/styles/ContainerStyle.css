@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.containerCard {
+
+    width: 30%;
+    height: 50vh;
+}
+
+.containerCard-C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card1 {
+    flex-direction: column;
+
+}
+
+.containerCard h1 {
+    text-align: center;
+}
+
+.containerCard p {
+    text-align: center;
+}

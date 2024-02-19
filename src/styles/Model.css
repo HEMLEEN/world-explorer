@@ -1,0 +1,14 @@
+.modelContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.modelContent p{
+   
+    text-align: center;
+    color: #FFFF;
+}
+.modelContentText{
+
+   
+}
