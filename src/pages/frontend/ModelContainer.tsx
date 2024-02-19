@@ -9,14 +9,12 @@ const ModelContainer = (props: any) => {
             <Modal
                 closeIcon
                 open={open}
-                trigger={<Button>{props.buttonName}</Button>}
+                trigger={<Button className='button'>{props.buttonName}</Button>}
                 onClose={() => setOpen(false)}
                 onOpen={() => setOpen(true)}
             >
                 <ModalActions>
-                    <Button color='red' onClick={() => setOpen(false)}>
-                        <Icon name='remove' /> Close
-                    </Button>
+                   
                 </ModalActions>
                 <ModalContent >
                     <div className='modelContent'>
