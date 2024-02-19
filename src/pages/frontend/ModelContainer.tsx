@@ -1,5 +1,5 @@
 import  { useState } from 'react'
-import { Button, Icon, Modal, ModalActions, ModalContent } from 'semantic-ui-react'
+import { Button, Modal, ModalActions, ModalContent } from 'semantic-ui-react'
 
 const ModelContainer = (props: any) => {
 

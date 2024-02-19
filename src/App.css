@@ -1,17 +1,19 @@
 * {
     margin: 10px;
+    /* background-color: #141414; */
 }
 
 .Header {
     display: flex;
     justify-content: center;
     align-items: center;
-    float: right;
 }
 .HeaderText{
     display: flex;
     justify-content: center;
     align-items:center;
+    color: #064749;
+ 
 
 }
 .Header h1 {
@@ -46,14 +48,13 @@
 
 .App h1 {
     font-size: 18px;
-    color: #FFF;
     overflow: hidden;
     text-overflow: ellipsis;
     color: #4ABDAC;
 }
 
 .App .Link {
-    color: #FFF;
+    color: #0d4e5a;
     text-decoration: none;
 }
 
@@ -73,11 +74,9 @@
 }
 
 h1:hover {
-    color: #FFF;
     cursor: not-allowed
 }
 
 .Link:hover {
-    color: #4ABDAC;
     cursor: pointer;
 }
