@@ -1,21 +1,22 @@
 * {
-    margin: 10px;
-    /* background-color: #141414; */
 }
 
 .Header {
+    margin: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.HeaderText{
-    display: flex;
+
+.HeaderText {
+    display: grid;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     color: #064749;
- 
+
 
 }
+
 .Header h1 {
     text-align: center;
 }
@@ -43,32 +44,42 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    gap:5rem;
 }
 
 .App h1 {
     font-size: 18px;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #4ABDAC;
 }
 
-.App .Link {
-    color: #0d4e5a;
+.App .Link  {
+   margin: 1rem;
+   gap:1rem;
+
+  
+}
+.Link h4 {
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #74e0db;
     text-decoration: none;
+}
+.AppContent {
+    margin-top:1rem;
+    gap: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:1rem;
+
 }
 
 .AppContent {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    gap: 5%;
-}
-
-.AppContent .Link {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    padding:2rem;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
 }
@@ -76,7 +87,15 @@
 h1:hover {
     cursor: not-allowed
 }
+h4:hover{
+    color: #e9e0e3;
+}
 
 .Link:hover {
+    color: #e9e0e3;
     cursor: pointer;
+}
+
+body:hover{
+background-color: #4e081f;
 }

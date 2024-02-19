@@ -6,7 +6,7 @@ const NextjsConcepts = () => {
    
     <>
      <Header headerText='Nextjs'/>
-     <p>Db not connected cant fetch data...</p>
+     <p className='HeaderText'>Db not connected cant fetch data...</p>
     </>
   )
 

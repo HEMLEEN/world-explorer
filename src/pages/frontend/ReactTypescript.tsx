@@ -6,7 +6,7 @@ const ReactTypescript = () => {
     
     <>
     <Header headerText='Typescript'/>
-    <p>Db not connected cant fetch data...</p>
+    <p className='HeaderText'>Db not connected cant fetch data...</p>
     </>
   )
 
