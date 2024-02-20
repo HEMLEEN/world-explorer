@@ -37,19 +37,19 @@
 .AppContent {
     position: fixed;
     justify-content: center;
-    display:flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     top: 20%;
     left: 10%;
     right: 0%;
-    width: 80%;
-    height: 30%;
+    width: 76%;
+    height: 50%;
     overflow: hidden;
-    background-color: #055753;
+    /* background-color: #055753; */
     gap: 8%;
     border-radius: 10px;
-
+    margin: 29px;
 }
 
 
