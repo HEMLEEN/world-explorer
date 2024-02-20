@@ -1,25 +1,6 @@
 * {}
 
-.Header {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
 
-.HeaderText {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #064749;
-
-
-}
-
-.HeaderText h1 {
-    font-size: 12px;
-    text-align: center;
-    color: #064
-}
 .AppHead{
     margin: 1rem;
     text-align: center;   

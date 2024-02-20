@@ -8,10 +8,11 @@ const Header = (props: any) => {
         <>
 
             <div className='Header'>
-            </div>
             <div className='HeaderText'>
                 <h1> {props.headerText}</h1>
                 </div>
+            </div>
+          
 
         </>
     )

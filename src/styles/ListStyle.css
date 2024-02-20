@@ -1,0 +1,16 @@
+ul {
+    list-style-type: style type;;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style list items */
+  li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style list items on hover */
+  li:hover {
+    background-color: #f0f0f0;
+  }
