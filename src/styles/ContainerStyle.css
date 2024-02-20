@@ -16,14 +16,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #064749;
+    color: #038286;
 
 }
 
 .HeaderText h1 {
     font-size: 18px;
     text-align: center;
-    color: #064
+    color: #1ea074
 }
 .mainContainer {
     position: fixed;
@@ -37,15 +37,19 @@
 .AppContent {
     position: fixed;
     justify-content: center;
-    display:inline-flex;
+    display:flex;
     flex-direction: row;
     align-items: center;
     top: 20%;
     left: 10%;
+    right: 0%;
     width: 80%;
     height: 30%;
     overflow: hidden;
-    background-color: #064;
+    background-color: #055753;
+    gap: 8%;
+    border-radius: 10px;
+
 }
 
 

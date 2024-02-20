@@ -31,25 +31,7 @@
 .Link h4 {
     font-size: 14px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #74e0db;
-    text-decoration: none;
-}
-
-.AppContent {
-    gap: 10px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 1rem;
-
-}
-
-.AppContent {
-    display: grid;
-    padding: 2rem;
-    justify-content: center;
-    align-items: center;
+    color: #09a12a;
     text-decoration: none;
 }
 
@@ -62,11 +44,14 @@ h4:hover {
     color: #e9e0e3;
 }
 
-.Link:hover {
-    color: #e9e0e3;
+.Link h2:hover {
+    color: #99878d;
     cursor: pointer;
 }
+.Link h2 {
+    color: #b177a2;
 
+}
 body:hover {
     background-color: #4e081f;
 }
