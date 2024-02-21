@@ -1,5 +1,5 @@
 import  { useState } from 'react'
-import { Button, Modal, ModalActions, ModalContent, ModalDescription, ModalHeader } from 'semantic-ui-react'
+import { Button, Modal, ModalActions, ModalContent, ModalHeader } from 'semantic-ui-react'
 import ButtonProps from '../../components/Button';
 
 const ModelContainer = (props: any) => {

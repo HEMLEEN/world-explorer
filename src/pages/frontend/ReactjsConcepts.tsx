@@ -9,7 +9,7 @@ const ReactjsConcepts = () => {
    return (
     <>
       <Header headerText='Reactjs' />
-      <div className='AppContent'>
+      <div className='AppContentMain'>
         <ModelContainer modelHeader='Create React App' buttonName='Installation Method' modelContent={<InstallationGuide />} />
         <ModelContainer modelHeader='REACT' buttonName='What is React' modelContent={<WhatisReact />} />
         <ModelContainer modelHeader='HOOKS' buttonName='Hooks' modelContent={<HooksConcepts/>} />
