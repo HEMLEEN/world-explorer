@@ -1,13 +1,26 @@
 .button {
-    width: 10rem;
-    height: 3rem;
-    border: 1px solid #1444;
-    border-color: #1444;
-    border-radius: 10px;
-    /* background-color: #6f7e7e44; */
+    background-color: #0a6e31; 
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    border: none; 
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button :hover{
-    /* background-color: #bdb6c4; */
+    background-color: #bdb6c4;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px){
+   .button{
+    font-size: 14px; 
+    padding: 8px 16px;
+   }
+  /* Hover Effect */
+  &:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
 }

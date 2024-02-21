@@ -36,18 +36,17 @@
 }
 .AppContent {
     position: fixed;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr ; /* Three equal columns */
+    grid-gap: 10px; /* Gap between grid items */
     align-items: center;
+    justify-content: center;
     top: 20%;
-    left: 10%;
+    left: 25%;
     right: 0%;
-    width: 76%;
-    height: 50%;
+    width: 50%;
     overflow: hidden;
     /* background-color: #055753; */
-    gap: 8%;
     border-radius: 10px;
     margin: 29px;
 }

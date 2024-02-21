@@ -1,20 +1,10 @@
 import  { useState } from 'react'
-import { Button, Modal, ModalActions, ModalContent, ModalHeader } from 'semantic-ui-react'
-import { saveAs } from 'file-saver';
-import { modelContentsDetails } from '../../constants/Contents';
+import { Button, Modal, ModalActions, ModalContent, ModalDescription, ModalHeader } from 'semantic-ui-react'
+import ButtonProps from '../../components/Button';
 
 const ModelContainer = (props: any) => {
 
     const [open, setOpen] = useState(false)
-
-    const downloadTextFile = () => {
-    fetch(modelContentsDetails.react.useEffectExample)
-      .then(response => response.blob())
-      .then(blob => {
-        saveAs(blob, 'image_filename.png'); 
-      })
-      .catch(error => console.error('Error downloading image:', error));
-      };
 
     return (
         <>
@@ -22,17 +12,17 @@ const ModelContainer = (props: any) => {
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
         open={open}
-        trigger={<Button>{props.buttonName}</Button>}
+        trigger={<ButtonProps className='button' buttonName={props.buttonName}/>}
       >
-        <ModalHeader>{props.modelHeader}</ModalHeader>
+        <ModalHeader>     
+          {props.modelHeader}
+        </ModalHeader>
         <ModalContent image>
           {props.modelContent}
         </ModalContent>
         <ModalActions>
           <Button onClick={() => setOpen(false)}>Cancel</Button>
-          <Button onClick={() => { downloadTextFile(); setOpen(false); }} positive>
-           Download
-          </Button>
+         <ButtonProps buttonName='Downloads' onClick={props.downloadTextFile}/>
         </ModalActions>
       </Modal>
         </>

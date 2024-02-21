@@ -1,5 +1,8 @@
-* {}
-
+* {
+}
+body{
+    background:linear-gradient(to top, #99878d, #033670)
+}
 
 .AppHead{
     margin: 1rem;
@@ -35,23 +38,7 @@
     text-decoration: none;
 }
 
-h1:hover {
-    color: #e9e0e3;
-    cursor: not-allowed
-}
-
-h4:hover {
-    color: #e9e0e3;
-}
-
-.Link h2:hover {
-    color: #99878d;
-    cursor: pointer;
-}
 .Link h2 {
     color: #b177a2;
 
-}
-body:hover {
-    background-color: #4e081f;
 }

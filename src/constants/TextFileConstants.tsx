@@ -3,13 +3,94 @@ import { Image, Label, Table, TableBody, TableCell, TableHeader, TableHeaderCell
 
 import { modelContentsDetails } from "./Contents"
 
+
+
 const WhatisReact = () => {
     
   return (
     <>
       <p>
-        <b>React.js,</b>  commonly referred to as React, is an open-source JavaScript library primarily used for building user interfaces (UIs) for single-page web applications. It was developed by Facebook and released in 2013. React allows developers to create interactive UI components that can efficiently update and render based on changes in application state
+        <b>React.js,</b>  commonly referred to as React, is an open-source JavaScript library primarily used for building user interfaces (UIs) for single-page web applications. It was developed by Facebook and released in 2013. React allows developers to create interactive UI components that can efficiently update and render based on changes in application state. <b style={{color:'blue', cursor:'pointer'}}> Dowload </b> React.txt file.
+        <br/><br/>
+        <h2>DOM</h2>
+        The <b>Document Object Model (DOM)</b> is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.  <b style={{color:'blue', cursor:'pointer'}}> Dowload</b> Dom.txt file.
+        <br/><br/>
+        <h2>Virtual DOM</h2>
+        The <b>virtual DOM (VDOM)</b> is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called <b>reconciliation</b>.  <b style={{color:'blue', cursor:'pointer'}}> Dowload</b> VDOM.txt file.
       </p>
+    </>
+  )
+}
+
+const HooksConcepts = () =>{
+  
+  return (
+    <>
+    <p>
+      <h5>What is Hook ?</h5>
+    <b>React Hooks</b> are a feature introduced in React 16.8 that allow you to use state and other React features without writing a class. With Hooks, you can use stateful logic in functional components, which were previously stateless. This makes it easier to reuse logic between components, and it simplifies the process of managing state and side effects.
+    <br/><br/>
+    <Table celled>
+              <TableHeader>
+                <TableRow>
+                  <TableHeaderCell>Hooks</TableHeaderCell>
+                  <TableHeaderCell>description</TableHeaderCell>
+                  <TableHeaderCell>Example</TableHeaderCell>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell>
+                    <Label ribbon><p><b>useState</b></p></Label>
+                  </TableCell>
+                  <TableCell><ul><li>Allows functional components to manage state.
+                  <li>It returns a stateful value and a function to update it.</li>
+                  </li>  
+                  </ul></TableCell>
+                  <TableCell>
+                    <ul><li><Image size="large" src={modelContentsDetails.react.useStateExample}></Image></li></ul>
+                  </TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <Label ribbon><p><b>useEffect</b></p></Label>
+                  </TableCell>
+                  <TableCell>{ ' '}</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <Label ribbon><p><b>useRef</b></p></Label>
+                  </TableCell>
+                  <TableCell>{ ' '}</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <Label ribbon><p><b>useCallback</b></p></Label>
+                  </TableCell>
+                  <TableCell>{ ' '}</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <Label ribbon><p><b>useMemo</b></p></Label>
+                  </TableCell>
+                  <TableCell>{ ' '}</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <Label ribbon><p><b>useReducer</b></p></Label>
+                  </TableCell>
+                  <TableCell>{ ' '}</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <Label ribbon><p><b>useContext Hook</b></p></Label>
+                  </TableCell>
+                  <TableCell>{ ' '}</TableCell>
+                </TableRow>
+             </TableBody>   
+    </Table>
+    <br/><br/>
+    </p>
     </>
   )
 }
@@ -46,7 +127,7 @@ const InstallationGuide = () => {
                   <TableCell>
                     <Label ribbon><p><b>my-react-app</b></p></Label>
                   </TableCell>
-                  <TableCell>{'App Name'}</TableCell>
+                  <TableCell>{ ' '}</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>
@@ -459,6 +540,7 @@ const Assignment = () => {
 }
 export {
   WhatisReact,
+  HooksConcepts,
   InstallationGuide,
   Basics,
   Variables,
